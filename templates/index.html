@@ -262,7 +262,7 @@
       let activeSlide = 0;
 
       slides.forEach((slide, index) => {
-        slide.style.backgroundImage = `url("assets/backgrounds/${photos[index]}")`;
+        slide.style.backgroundImage = `url("/static/images/backgrounds/${photos[index]}")`;
       });
 
       if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
